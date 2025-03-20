@@ -7,7 +7,7 @@ salario = float(input("Digite seu salario: "))
 gratificacao = 0.05
 
 novo_salario = (salario + (salario * gratificacao))
-desct_salario = novo_salario - (novo_salario * 0.07)
+desct_salario = novo_salario - (salario * 0.07)
 
 print("Seu salario é:", desct_salario)
 
