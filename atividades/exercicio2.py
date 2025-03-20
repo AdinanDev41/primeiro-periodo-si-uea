@@ -4,4 +4,4 @@
 r = float(input("Digite o valor do raio: "))
 c = 2*3.14*r
 
-print(c, "cm")
+print(round(c, 2), "cm")
